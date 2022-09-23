@@ -22,9 +22,9 @@ body {
 /* Container */
 
 .container {
-    max-width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
 }
 
@@ -36,7 +36,6 @@ body {
 
 .header .container {
     display: flex;
-    justify-content: space-between;
 }
 
 .logo-link,
@@ -46,22 +45,18 @@ body {
     font-size: 26px;
     letter-spacing: 0.03em;
     line-height: 31px;
-    text-decoration: none;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-link {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: var(--color-black);
+    margin-right: 93px;
 }
 
 .logo-link span {
     color: var(--color-blue);
-}
-
-.nav {
-    margin-right: 340px;
 }
 
 .navigation,
@@ -79,23 +74,19 @@ body {
     margin-left: 0;
 }
 
-.navigation,
-.contacts {
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
 .nav-link {
     color: var(--color-dark);
 }
 
 .nav-link,
 .contact-link {
+    display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding: 32px 0;
 }
 
 .nav-link:hover,
@@ -107,6 +98,10 @@ body {
 
 .current {
     color: var(--color-blue);
+}
+
+.contacts {
+    margin-left: auto;
 }
 
 .contact-link {
@@ -122,6 +117,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 200px 0;
     background-color: var(--color-dark-gray);
 }
 
@@ -132,7 +128,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     max-width: 690px;
-    padding-top: 200px;
     margin-bottom: 30px;
     color: var(--color-white);
 }
@@ -143,7 +138,6 @@ body {
     line-height: 30px;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    margin-bottom: 200px;
     padding: 10px 32px;
     background-color: var(--color-blue);
     color: var(--color-white);
@@ -157,9 +151,9 @@ body {
 
 /* Section About Company */
 
-/* .about-company {
-
-} */
+.about-company {
+    padding-top: 94px;
+}
 
 .about-company h2 {
     display: none;
@@ -167,8 +161,7 @@ body {
 
 .description {
     display: flex;
-    justify-content: space-between;
-    margin-top: 95px;
+    gap: 30px;
 }
 
 .description li {
@@ -194,14 +187,15 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    padding-top: 10px;
     color: var(--color-gray);
 }
 
 /* Section Our Work */
 
 .section {
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* .our-work {
@@ -240,9 +234,14 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.wrapper {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .name,
 .profession {
-    text-align: center;
     line-height: 19px;
     letter-spacing: 0.03em;
 }
@@ -250,7 +249,6 @@ body {
 .name {
     font-weight: 500;
     font-size: 16px;
-    padding-top: 30px;
     padding-bottom: 10px;
     color: var(--color-dark);
 }
@@ -258,7 +256,6 @@ body {
 .profession {
     font-weight: 400;
     font-size: 16px;
-    padding-bottom: 30px;
     color: var(--color-gray);
 }
 
@@ -325,9 +322,8 @@ body {
     margin-left: 0;
 }
 
-.headings-product,
-.text-product {
-    padding-left: 24px;
+.wrapper2 {
+    padding: 20px 24px;
 }
 
 .headings-product {
@@ -336,8 +332,7 @@ body {
     line-height: 36px;
     letter-spacing: 0.06em;
     color: var(--color-dark);
-    padding-top: 20px;
-    padding-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 .text-product {
@@ -346,18 +341,13 @@ body {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--color-gray);
-    padding-bottom: 20px;
 }
 
 /* Footer */
 
 .footer {
     background-color: var(--color-dark-gray);
-}
-
-.footer .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .logo-link2,
@@ -367,7 +357,6 @@ body {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    text-decoration: none;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
